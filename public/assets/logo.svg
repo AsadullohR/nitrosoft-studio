@@ -1,0 +1,6 @@
+
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect x="2" y="8" width="20" height="24" rx="6" fill="#10b981"/>
+  <rect x="18" y="8" width="20" height="24" rx="6" fill="#34d399" opacity=".8"/>
+  <text x="44" y="26" font-family="Arial" font-size="16" fill="white">Nitrosoft</text>
+</svg>

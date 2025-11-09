@@ -1,0 +1,37 @@
+
+<!doctype html><html><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Nitrosoft Studio — Preview</title>
+<link rel="icon" href="./public/assets/logo.svg">
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>body{
+  background:#0b1220;
+  color:#fff
+  }</style>
+</head>
+<body>
+<div id="app"></div>
+<script type="text/javascript">
+const e=React.createElement;
+function Preview(){return e('div', {className:'max-w-3xl mx-auto px-4 py-16'}, [
+  e('h1',{key:1,className:'text-4xl font-bold'},'Nitrosoft Studio (Preview)'),
+  e('p',{key:2,className:'text-slate-300 mt-2'},'This standalone preview shows the hero styling and a couple of blocks without installing dependencies.'),
+  e('div',{key:3,className:'mt-8 rounded-2xl p-8 bg-emerald-800/30 border border-white/10'},[
+    e('div',{key:31,className:'text-sm text-slate-300'},'AI-driven web & mobile development'),
+    e('h2',{key:32,className:'text-3xl mt-2 font-semibold'},'Build. Launch. Scale.'),
+    e('div',{key:33,className:'mt-4 flex gap-3'},[
+      e('a',{key:331,href:'#',className:'rounded-full bg-emerald-700 px-5 py-2'},'Get a proposal'),
+      e('a',{key:332,href:'#',className:'rounded-full border border-white/20 px-5 py-2'},'View work'),
+    ])
+  ]),
+  e('div',{key:4,className:'grid md:grid-cols-3 gap-4 mt-8'},[
+    e('div',{key:41,className:'rounded-xl border border-white/10 p-6 bg-white/5'},[e('div',{className:'text-3xl'},"5/5"), e('div',{className:'text-slate-300'},"average client rating")]),
+    e('div',{key:42,className:'rounded-xl border border-white/10 p-6 bg-white/5'},[e('div',{className:'text-3xl'},"10 weeks"), e('div',{className:'text-slate-300'},"to launch your app")]),
+    e('div',{key:43,className:'rounded-xl border border-white/10 p-6 bg-white/5'},[e('div',{className:'text-3xl'},"100+"), e('div',{className:'text-slate-300'},"products")]),
+  ])
+])}
+ReactDOM.createRoot(document.getElementById('app')).render(e(Preview));
+</script>
+</body></html>

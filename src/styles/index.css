@@ -1,0 +1,59 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dot-mask {
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 16px 16px;
+  -webkit-mask-image: radial-gradient(
+    ellipse 50% 50% at 50% 50%,
+    #000 60%,
+    transparent 100%
+);
+  
+  mask-image: radial-gradient(
+    ellipse 50% 50% at 50% 50%,
+    #000 60%,
+    transparent 100%
+  );
+}
+
+.dot {
+  /* position: absolute; */
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(#e5e7eb 1px, transparent 0.25px);
+  background-size: 16px 16px;
+}
+.custom-grid {
+  /* position: absolute; */
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #8080802f 1px, transparent 1px),
+    linear-gradient(to bottom, #ffffff1e 1px, transparent 1px);
+  background-size: 24px 24px;
+  z-index: -1;
+}
+.uz-corner:before, .uz-corner:after {
+  content: "";
+  position: absolute;
+  width: 64px; height: 64px;
+  opacity: .15;
+  background: url('/assets/uz-corner.svg') no-repeat center/contain;
+}
+.uz-corner:before { left: 8px; top: 8px; }
+.uz-corner:after  { right: 8px; bottom: 8px; transform: rotate(180deg); }
+
+.katak-overlay {
+  background-image: url('/assets/katak.svg');
+  background-size: 48px 48px;
+  background-repeat: repeat;
+  opacity: .08;
+}
