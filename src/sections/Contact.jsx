@@ -33,21 +33,16 @@ export default function Contact() {
           </p>
           <p className="relative mt-4">
             Prefer to talk now? Call{" "}
-            <a href="tel:+998000000000" className="underline">
-              +998 00 000‑00‑00
+            <a href="tel:+48736679191" className="underline">
+              +48 736 679 191 (WhatsApp)
             </a>
           </p>
           <div className="relative mt-10 flex gap-3 opacity-80">
-            <img
-              src="/assets/badge-sortlist.png"
-              className="h-10"
-              alt="Sortlist"
-            />
-            <img
+            {/* <img
               src="/assets/badge-clutch.png"
               className="h-10"
               alt="Clutch 4.9"
-            />
+            /> */}
           </div>
         </div>
         <form

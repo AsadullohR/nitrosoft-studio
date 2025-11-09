@@ -1,41 +1,45 @@
 import React, { useEffect, useRef } from "react";
 
 const team = [
-  { name: "Asadulloh", role: "CEO", photo: "/assets/team1.jpg" },
+  {
+    name: "Asadulloh",
+    role: "Co-Founder/Head of AI and Web (6+ years)",
+    photo: "/assets/asadulloh.png",
+  },
   {
     name: "Abdurahmon",
-    role: "Head of AI & Web (6+ years)",
-    photo: "/assets/team2.jpg",
+    role: "Co-Founder/Head of Cybersecurity (6+ years)",
+    photo: "/assets/abdurahmon.jpg",
   },
   {
     name: "Hikmatulloh",
     role: "Mobile Lead (8+ years)",
-    photo: "/assets/team3.jpg",
+    photo: "/assets/hikmatulloh.png",
   },
   {
     name: "Bunyodbek",
-    role: "Backend and IOT Developer(6+ years)",
-    photo: "/assets/team4.jpg",
+    role: "Backend and IOT Developer (6+ years)",
+    photo: "/assets/bunyodbek.png",
   },
   {
     name: "Xushnudbek",
     role: "Flutter Developer (4+ years)",
-    photo: "/assets/team5.jpg",
+    photo: "/assets/xushnudbek.png",
   },
   {
     name: "Diyorbek",
     role: "Frontend Developer (2+ years)",
-    photo: "/assets/team6.jpg",
+    photo: "/assets/diyorbek.png",
   },
   {
     name: "Jamshid",
     role: "PHP Developer (2+ years)",
-    photo: "/assets/team6.jpg",
+    photo: "/assets/jamshid.png",
   },
   {
     name: "Qodirxon",
     role: "Frontend Developer (1+ years)",
-    photo: "/assets/team6.jpg",
+    photo: "/assets/qodirxon.png",
   },
 ];
 
@@ -54,10 +58,8 @@ export default function Team() {
 
   return (
     <section id="team" className="py-16 bg-white/5">
-      <h2 className="text-3xl font-semibold text-center">
-        Our Team (Uzbekistan)
-      </h2>
-      <div ref={ref} className="mt-8 overflow-x-auto no-scrollbar px-4">
+      <h2 className="text-3xl font-semibold text-center">Our Team</h2>
+      <div ref={ref} className="mt-8 overflow-x-hidden no-scrollbar px-4 ">
         <div className="flex gap-8 w-max mx-auto">
           {team.map((m) => (
             <div key={m.name} className="shrink-0 w-[240px] text-center">

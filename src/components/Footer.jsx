@@ -41,23 +41,22 @@ export default function Footer() {
             >
               hello@nitrosoft.studio
             </a>
-            <a href="tel:+998000000000" className="block hover:text-white">
-              +998 (00) 000‑00‑00
+            <a href="tel:+48736679191" className="block hover:text-white">
+              +48 736 679 191 (WhatsApp)
             </a>
+            <a href="#" className="block hover:text-white"></a>
             <span className="block">Tashkent, Uzbekistan</span>
           </div>
         </div>
         <div className="text-sm">
           <div className="font-semibold text-white">Social</div>
           <div className="mt-2 flex gap-3">
-            <a href="#" aria-label="LinkedIn" className="hover:opacity-80">
-              <img src="/assets/in.svg" className="h-6" />
-            </a>
-            <a href="#" aria-label="Clutch" className="hover:opacity-80">
-              <img src="/assets/clutch.svg" className="h-6" />
-            </a>
-            <a href="#" aria-label="Telegram" className="hover:opacity-80">
-              <img src="/assets/tg.svg" className="h-6" />
+            <a
+              href="https://pl.linkedin.com/company/nitrosoft-xyz"
+              aria-label="LinkedIn"
+              className="hover:opacity-80"
+            >
+              <img src="/assets/linkedin-logo-2430.svg" className="h-6" />
             </a>
           </div>
         </div>
