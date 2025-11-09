@@ -23,7 +23,7 @@ export default function App() {
         <SelectedWorks lang={lang} />
         <HowWeWork lang={lang} />
         <WhyUs lang={lang} />
-        {/* <Testimonials lang={lang} /> */}
+        <Testimonials lang={lang} />
         <CTA lang={lang} />
         <Team lang={lang} />
         <Contact lang={lang} />
