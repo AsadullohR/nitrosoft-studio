@@ -19,7 +19,7 @@ const qs = [
   ],
   [
     "What programming languages and frameworks do you use?",
-    "React, React Native, Next.js, Node.js, Go, PostgreSQL, Tailwind, Vite.",
+    "React, React Native, Next.js, Node.js, Go, PostgreSQL, DJango, Laravel, Flutter and more.",
   ],
   [
     "How will I secure my app?",
